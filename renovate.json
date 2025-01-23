@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "docker:pinDigests"
   ],
   "description": "Config to group Docker image version and digest updates into a single pull request.",
   "packageRules": [
