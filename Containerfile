@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora-bootc:41
+FROM quay.io/fedora/fedora-bootc:43@sha256:e99c8d8ac494a8494194ed851c11102a653965e7c22e9b7b3b742d075f8a8f13
 
 COPY etc etc
 COPY usr usr
